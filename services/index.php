@@ -9,9 +9,9 @@
 		<header id="header" class="header">
 			<?php include '../imports/header.html';?>
 		</header>
-		<section id="hero">
-			<div class="section-wrapper definition">
-				<p>Our User Goodness UXperts champion the fusion between research and design to deliver the highest quality experiences between you and the communities in which you serve. </p>
+				<section id="hero">
+			<div class="banner-wrapper">
+				<h2>Services</h2>
 			</div>
 		</section>
 		<section id="nonprofits">

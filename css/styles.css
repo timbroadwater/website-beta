@@ -203,11 +203,22 @@ header img {
 p, ol, ul {
   line-height: 150%; }
 
+.orange {
+  font-weight: bold;
+  color: #5ac1a0; }
+
 a {
   color: #049634; }
 
 .error {
   color: red; }
+
+.banner-wrapper {
+  max-width: 1280px;
+  width: 90%;
+  padding: 10px 5%;
+  overflow: hidden;
+  margin: 0 auto; }
 
 .section-wrapper {
   max-width: 1280px;
@@ -230,36 +241,34 @@ a {
       padding: 60px 5%; } }
 
 #hero {
-  margin-top: 56px;
-  background: url(../img/honeycomb.png) repeat #f19c3e;
-  background-size: 300px;
-  background-position: center center;
+  margin-top: 50px;
+  background: #faa918;
   text-align: center; }
+  @media (min-width: 768px) {
+    #hero {
+      margin-top: 90px; } }
   #hero h2 {
     color: #fff;
-    text-shadow: 0px 2px #906301;
-    font-size: 36px; }
-  #hero .homepage {
-    font-size: 24px; }
+    font-size: 18px; }
     @media (min-width: 768px) {
-      #hero .homepage {
-        font-size: 36px; } }
-    #hero .homepage .yellow {
-      color: #ffff77; }
-  #hero .definition {
-    text-align: left; }
-    #hero .definition p {
-      text-align: left;
-      color: #302f30; }
-    #hero .definition ol {
-      font-size: 1.15em;
-      text-align: left;
-      margin: 0 0 0 20px;
-      padding: 0;
-      color: #302f30; }
-      #hero .definition ol li {
-        margin: 0;
-        padding: 0 0 20px 0; }
+      #hero h2 {
+        font-size: 24px; } }
+    @media (min-width: 1024px) {
+      #hero h2 {
+        font-size: 30px; } }
+
+#carousel {
+  background: url(../img/carousel.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 150px;
+  transition: height 0.15s ease-out; }
+  @media (min-width: 768px) {
+    #carousel {
+      height: 300px; } }
+  @media (min-width: 1024px) {
+    #carousel {
+      height: 450px; } }
 
 #process .process-block {
   margin: 0 0 30px 0;
@@ -331,7 +340,7 @@ a {
             padding: 0 0 0 3%; } }
         #services ul li .li-right h3 {
           margin: 0;
-          color: #f19c3e; }
+          color: #faa918; }
         #services ul li .li-right .green {
           color: #5ac1a0; }
         #services ul li .li-right p {
@@ -340,9 +349,7 @@ a {
 
 #bio {
   text-align: center;
-  background: url(../img/honeycomb2.png) repeat #5ac1a0; }
-  #bio h2 {
-    color: #245e4c; }
+  background: #f1f1f1; }
   #bio .bio-container {
     padding: 20px 0;
     overflow: hidden;
@@ -363,8 +370,7 @@ a {
         width: 100%;
         max-width: 150px;
         height: auto;
-        -webkit-clip-path: polygon(50% 0%, 92% 25%, 92% 75%, 50% 100%, 8% 75%, 8% 25%);
-        clip-path: polygon(50% 0%, 92% 25%, 92% 75%, 50% 100%, 8% 75%, 8% 25%); }
+        border-radius: 100px; }
     #bio .bio-container .bio-container-right {
       display: inline-block;
       width: 100%;
@@ -375,7 +381,7 @@ a {
           float: left; } }
       #bio .bio-container .bio-container-right h3 {
         text-align: center;
-        color: #fff;
+        color: #302f30;
         margin: 0; }
         @media (min-width: 768px) {
           #bio .bio-container .bio-container-right h3 {
@@ -401,16 +407,16 @@ a {
   color: #302f30; }
   #nonprofits ol li, #nonprofits ul li, #contact ol li, #contact ul li, #mission ol li, #mission ul li {
     margin: 0;
-    padding: 0 0 20px 0; }
+    padding: 0; }
 #nonprofits h2, #contact h2, #mission h2 {
-  color: #5ac1a0; }
+  color: #302f30; }
 #nonprofits h3, #contact h3, #mission h3 {
-  color: #f19c3e; }
+  color: #302f30; }
 
 #footer {
   text-align: center; }
   #footer h2 {
-    color: #f19c3e; }
+    color: #faa918; }
   #footer a {
     color: #049634; }
   #footer .footer-left {
@@ -449,7 +455,7 @@ a {
     color: #5ac1a0;
     cursor: pointer; }
     #footer .fa:hover {
-      color: #f19c3e; }
+      color: #faa918; }
 
 #quote {
   text-align: center;
@@ -488,7 +494,7 @@ a {
   color: #049634; }
 
 .mission-header {
-  background: url(../img/honeycomb2.png) repeat #f19c3e !important;
+  background: url(../img/honeycomb2.png) repeat #faa918 !important;
   background-size: 300px !important;
   background-position: center center !important; }
 

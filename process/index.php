@@ -9,9 +9,9 @@
 		<header id="header" class="header">
 			<?php include '../imports/header.html';?>
 		</header>
-		<section id="hero" class="mission-header">
-			<div class="section-wrapper definition">
-				<h2>This is how we do it...</h2>
+		<section id="hero">
+			<div class="banner-wrapper">
+				<h2>Our Process</h2>
 			</div>
 		</section>
 		<section id="process">
