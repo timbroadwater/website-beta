@@ -1,0 +1,370 @@
+// Settings – font, colors definitions, etc.
+@import "_partials/ui";
+
+//Tools – globally used mixins and functions
+@import "_partials/mixins";
+
+//Generic – reset and/or normalize styles, box-sizing definition, etc.
+@import "_partials/reset";
+
+//Elements – styling for bare HTML elements (like H1, A, etc.). These come with default styling from the browser so we can redefine them here.
+@import "_partials/_header";
+
+p, ol, ul {
+	line-height: 150%;
+}
+
+//Objects – class-based selectors which define undecorated design patterns, for example media object known from OOCSS
+a {
+	color: $greenlink;
+}
+.error {
+	color: red;
+}
+.section-wrapper {
+	max-width: 1280px;
+	width: 90%;
+	padding: 30px 5%;
+	overflow: hidden;
+    margin: 0 auto;
+    @include mq(tablet){
+		padding: 60px 5%;
+	}
+}
+.section-wrapper2 {
+	max-width: 800px;
+	width: 90%;
+	padding: 30px 5%;
+	overflow: hidden;
+    margin: 0 auto;
+    @include mq(tablet){
+		padding: 60px 5%;
+	}
+}
+
+#hero {
+	margin-top: 56px;
+	background: url(../img/honeycomb.png) repeat $orange;
+	background-size: 300px;
+	background-position: center center;
+	text-align: center;
+		h2 {
+			color: $white;
+			text-shadow: 0px 2px #906301;
+			font-size: 36px;
+		}
+		.homepage {
+			font-size: 24px;
+			@include mq(tablet){
+				font-size: 36px;
+			}
+			.yellow {
+				color: #ffff77;
+			}
+		}
+	.definition {
+		text-align: left;
+		p {
+			text-align: left;
+			color: $darkgrey;
+		}
+		ol {
+			font-size: 1.15em;
+			text-align: left;
+			margin: 0 0 0 20px;
+			padding: 0;
+			color: $darkgrey;
+			li {
+				margin: 0;
+				padding: 0 0 20px 0;
+			}
+		}
+	}
+}
+
+#process {
+	.process-block {
+		margin: 0 0 30px 0;
+		display: block;
+		overflow: hidden;
+		height: auto;
+		.process-left, .process-right {
+			width: 50%;
+			float: left;
+			text-align: left;
+			display: block;
+			overflow: hidden;
+			height: auto;
+			img {
+				max-width: 360px;
+				width: 100%;
+				box-shadow: 1px 5px 10px rgba(0,0,0,0.5);
+				margin-bottom: 10px;
+			}
+		}
+	}
+}
+
+#services {
+	text-align: center;
+	h2 {
+		margin-bottom: 50px;
+		color: $green;
+	}
+	ul {
+		list-style-type: none;
+		width: 100%;
+		overflow: hidden;
+		text-align: left;
+		li:nth-child(odd) {
+			padding-right: 0;
+		 	@include mq(tablet){
+		 		padding-right: 6%;
+		 	}
+		}
+		li {
+			width: 100%;
+			display: inline-block;
+			float: left;
+			text-align: left;
+			padding: 0 0 50px 0;
+			@include mq(tablet){
+		 		width: 47%;
+		 	}
+		 	.li-left {
+		 		display: inline-block;
+		 		float: left;
+		 		width: 100%;
+		 		text-align: center;
+		 		@include mq(tablet) {
+		 			width: 30%;
+		 		}
+				img {
+					padding: 0;
+					width: 100%;
+					height: auto;
+					max-width: 200px;
+					margin: 0 auto 20px auto;
+					@include mq(tablet) {
+						margin: 0;
+					}
+				}
+		 	}
+		 	.li-right {
+		 		display: inline-block;
+		 		float: left;
+		 		width: 100%;
+		 		padding: 0;
+		 		@include mq(tablet) {
+		 			width: 65%;
+		 			padding: 0 0 0 3%;
+		 		}
+				h3 {
+					margin: 0;
+					color: $orange;
+				}
+				.green {
+					color: $green;
+				}
+				p {
+					margin: 0;
+					color: $darkgrey;
+				}
+			}
+		}
+	}
+}
+#bio {
+	text-align: center;
+	background: url(../img/honeycomb2.png) repeat $green;
+	h2 {
+		color: darken($green, 30%);
+	}
+	.bio-container {
+		padding: 20px 0;
+		overflow: hidden;
+		text-align: center;
+		@include mq(tablet){
+	 		text-align: left;
+	 	}
+	 	.bio-container-left {
+	 		text-align: center;
+	 		display: inline-block;
+			width: 100%;
+			float: initial;
+			@include mq(tablet){
+		 		width: 30%;
+		 		float: left;
+		 	}
+			img {
+				width: 100%;
+				max-width: 150px;
+				height: auto;
+				// circle border-radius: 100px; 
+				// -webkit-clip-path: polygon(23% 9%, 77% 9%, 100% 50%, 77% 90%, 23% 90%, 0 50%);
+				// clip-path: polygon(23% 9%, 77% 9%, 100% 50%, 77% 90%, 23% 90%, 0 50%);
+				-webkit-clip-path: polygon(50% 0%, 92% 25%, 92% 75%, 50% 100%, 8% 75%, 8% 25%);
+				clip-path: polygon(50% 0%, 92% 25%, 92% 75%, 50% 100%, 8% 75%, 8% 25%);
+			}
+		}
+		.bio-container-right {
+			display: inline-block;
+			width: 100%;
+			float: initial;
+			@include mq(tablet){
+		 		width: 70%;
+		 		float: left;
+		 	}
+			h3 {
+				text-align: center;
+				color: $white;
+				margin: 0;
+				@include mq(tablet){
+			 		text-align: left;
+			 	}
+			}
+			p {
+				display: inline-block;
+				text-align: left;
+				width: 100%;
+				color: $darkgrey;
+			}
+			a {
+				color: $greenlink;
+				white-space: nowrap;
+			}
+			.fa {
+				font-size: 32px;
+				color: $lightgrey;
+			}		 	
+		}
+	}
+}
+#nonprofits, #contact, #mission {
+	p {
+		color: $darkgrey;
+	}
+	ol, ul {
+		text-align: left;
+		margin: 0 0 0 20px;
+		padding: 0;
+		color: $darkgrey;
+		li {
+			margin: 0;
+			padding: 0 0 20px 0;
+		}
+	}
+	h2 {
+		color: $green;
+	}
+	h3 {
+		color: $orange;
+	}
+}
+
+#footer {
+	text-align: center;
+	h2 {
+		color: $orange;
+	}
+	a {
+		color: $greenlink;
+	}
+	.footer-left {
+		text-align: left;
+		width: 100%;
+		float: left;
+		padding: 0 0 20px 0;
+		@include mq(tablet){
+	 		width: 45%;
+	 		padding: 0 5% 20px 0;
+	 	}
+	 	select, textarea, input {
+	 		width: 90%;
+	 		max-width: 600px;
+	 		min-height: 35px;
+	 		border: 1px solid #000;
+	 		margin: 0 0 10px 0;
+	 		resize: none;
+	 		display: block;
+	 		float: left;
+	 	}
+	}
+	.footer-right {
+		@include mq(tablet){
+	 		text-align: left;
+	 	}
+		width: 100%;
+		float: left;
+		padding: 0 0 20px 0;
+		@include mq(tablet){
+	 		width: 45%;
+	 		padding: 0 0 20px 5%;
+	 	}
+	 	p {
+	 		color: $darkgrey;
+	 	}
+	}
+	.fa {
+		font-size: 32px;
+		color: $green;
+		cursor: pointer;
+		&:hover {
+			color: $orange;
+		}
+	}
+}
+#quote {
+	text-align: center;
+	background: $lightgrey;
+	.message {
+		width: 100%;
+		font-style: italic;
+		line-height: 150%;
+		font-size: 	12px;
+	}
+}
+#iframeform {
+	label {
+		display: block;
+		font-weight: bold;
+		font-size: 14px;
+		color: $green;
+	}
+	input, textarea, select {
+		display: block;
+		width: 99%;
+		height: 35px;
+		margin-bottom: 10px;
+		border-radius: 5px;
+		border: 1px solid $mediumgrey;
+		font-family: Roboto, Arial, sans;
+		font-size: 12px;
+	}
+	textarea {
+		height: 60px;
+		resize: none;
+	}
+	input[type="submit"] {
+		max-width: 150px;
+		border-radius: 50px;
+		border: none;
+		font-weight: bold;
+		background: green;
+		color: white;
+	}
+	a {
+		color: $greenlink;
+	}
+}
+
+
+//Components – specific UI components. This is where majority of our work takes place and our UI components are often composed of Objects and Components
+
+
+//Trumps – utilities and helper classes with ability to override anything which goes before in the triangle, eg. hide helper class
+.mission-header {
+	background: url(../img/honeycomb2.png) repeat $orange !important;
+	background-size: 300px !important;
+	background-position: center center !important;
+}
