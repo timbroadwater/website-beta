@@ -205,7 +205,7 @@ p, ol, ul {
 
 .orange {
   font-weight: bold;
-  color: #5ac1a0; }
+  color: #389678; }
 
 a {
   color: #049634; }
@@ -407,7 +407,7 @@ a {
   color: #302f30; }
   #nonprofits ol li, #nonprofits ul li, #contact ol li, #contact ul li, #mission ol li, #mission ul li {
     margin: 0;
-    padding: 0; }
+    padding: 0 0 10px 0; }
 #nonprofits h2, #contact h2, #mission h2 {
   color: #302f30; }
 #nonprofits h3, #contact h3, #mission h3 {
