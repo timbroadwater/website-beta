@@ -16,7 +16,7 @@ $cssItem = 'http://usergoodness.org/css/styles.css'; //css item to display
 if(isset($_POST['email'])) {
  
     // EDIT THE 2 LINES BELOW AS REQUIRED
-    $email_to = "info@usergoodness.org";
+    $email_to = "info@usergoodness.com";
     $email_subject = "Contact | User Goodness Website";
  
     function died($error) {
@@ -98,7 +98,7 @@ $headers = 'From: '.$email_from."\r\n".
  
 <!-- include your own success html here -->
  
-<p>Thank you for contacting us. We will be in touch with you very soon. <a href="index.html">Send Another?</a></p>
+<p>Thank you for contacting us. We will be in touch with you very soon. <a href="iframe.html">Send Another?</a></p>
  
  </body>
 </html>
