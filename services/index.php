@@ -45,5 +45,10 @@
 				<span class="message"></span>
 			</div>
 		</section>
+		<script type="text/javascript">
+			$(function() {
+			  $('.nav-services').addClass('selected');
+			});
+		</script>
 	</body>
 </html>

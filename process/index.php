@@ -101,5 +101,10 @@
 				<span class="message"></span>
 			</div>
 		</section>
+		<script type="text/javascript">
+			$(function() {
+			  $('.nav-process').addClass('selected');
+			});
+		</script>
 	</body>
 </html>

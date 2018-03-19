@@ -1,4 +1,11 @@
 /* header */
+.selected {
+  text-decoration: underline !important;
+  color: $green !important;
+  &:hover {
+    color: #fff !important;
+  }
+}
 
 .header {
   background-color: #fff;
@@ -17,15 +24,18 @@
   max-width: 1280px;
   width: 90%;
   margin: 0 auto;
-  overflow: hidden;
+  height: 56px;
+  @include mq(tablet){
+    height: 90px;
+  }
 }
 
 header img {
-  max-width: 250px;
   width: 100%;
   height: auto; 
   float: left;
-  display: inline-block;}
+  display: inline-block;
+}
 
 
 .header ul {
@@ -40,15 +50,12 @@ header img {
 .header li a {
   display: block;
   padding: 20px 20px;
-  border-right: 1px solid #f4f4f4;
   text-decoration: none;
   font-weight: 900;
-  color: $green;
+  color: $darkgrey;
+  text-transform: uppercase;  
   letter-spacing: .02rem;
-}
-
-#header > div > ul > li:nth-child(4) > a {
-  border-right: none;
+  letter-spacing: 2px; 
 }
 
 .header li a:hover,
@@ -62,6 +69,15 @@ header img {
   float: left;
   font-size: 2em;
   padding: 10px 0;
+  max-width: 200px;
+  width: 100%;
+  height: auto; 
+  float: left;
+  display: inline-block;
+  @include mq(tablet){
+    padding: 20px 0;
+    max-width: 300px;
+  }
   text-decoration: none;
 }
 
@@ -71,6 +87,12 @@ header img {
   clear: both;
   max-height: 0;
   transition: max-height .2s ease-out;
+  margin-top: 8px;
+  box-shadow: rgba(0, 0, 0, 0.33) 0px 25px 25px;
+  @include mq(desktop){
+      margin-top: 15px; 
+      box-shadow: none;
+  }
 }
 
 /* menu icon */
@@ -82,6 +104,10 @@ header img {
   padding: 28px 20px;
   position: relative;
   user-select: none;
+  margin-top: 0;
+  @include mq(tablet){
+    margin-top: 15px;
+  }
 }
 
 .header .menu-icon .navicon {
@@ -91,6 +117,16 @@ header img {
   position: relative;
   transition: background .2s ease-out;
   width: 18px;
+}
+
+.header .menu li:nth-child(1) {
+  margin-top: 0;
+  @include mq(tablet){
+   margin-top: 8px;
+  }
+  @include mq(desktop){
+   margin-top: 0;
+  }
 }
 
 .header .menu-icon .navicon:before,
@@ -139,13 +175,7 @@ header img {
   top: 0;
 }
 
-@media (max-width: 375px) {
-	.logo {
-	width: 220px;
-	}
-}
-
-@media (min-width: 820px) {
+@media (min-width: 1024px) {
   .header li {
     float: left;
   }

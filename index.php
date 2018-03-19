@@ -89,7 +89,7 @@
 				</div>
 				<div class="bio-container">
 					<div class="bio-container-left">
-						<img src="img/profile.png" alt="Person's Name" class="bio-container-image"/>
+						<img src="img/denisehardman.jpg" alt="Person's Name" class="bio-container-image"/>
 					</div>
 					<div class="bio-container-right">
 						<h3>Denise Hardman / “Crazy UX Ninja Cat Lady”</h3>
@@ -133,5 +133,10 @@
 				<span class="message"></span>
 			</div>
 		</section>
+		<script type="text/javascript">
+			$(function() {
+			  $('.nav-home').addClass('selected');
+			});
+		</script>
 	</body>
 </html>

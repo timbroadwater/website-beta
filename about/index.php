@@ -50,5 +50,10 @@
 				<span class="message"></span>
 			</div>
 		</section>
+		<script type="text/javascript">
+			$(function() {
+			  $('.nav-about').addClass('selected');
+			});
+		</script>
 	</body>
 </html>

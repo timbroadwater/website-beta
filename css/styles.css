@@ -37,6 +37,12 @@ a:hover, a:active, a:focus {
   outline: 0; }
 
 /* header */
+.selected {
+  text-decoration: underline !important;
+  color: #5ac1a0 !important; }
+  .selected:hover {
+    color: #fff !important; }
+
 .header {
   background-color: #fff;
   box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
@@ -52,10 +58,12 @@ a:hover, a:active, a:focus {
   max-width: 1280px;
   width: 90%;
   margin: 0 auto;
-  overflow: hidden; }
+  height: 56px; }
+  @media (min-width: 768px) {
+    .header-wrapper {
+      height: 90px; } }
 
 header img {
-  max-width: 250px;
   width: 100%;
   height: auto;
   float: left;
@@ -72,14 +80,12 @@ header img {
 .header li a {
   display: block;
   padding: 20px 20px;
-  border-right: 1px solid #f4f4f4;
   text-decoration: none;
   font-weight: 900;
-  color: #5ac1a0;
-  letter-spacing: .02rem; }
-
-#header > div > ul > li:nth-child(4) > a {
-  border-right: none; }
+  color: #302f30;
+  text-transform: uppercase;
+  letter-spacing: .02rem;
+  letter-spacing: 2px; }
 
 .header li a:hover,
 .header .menu-btn:hover {
@@ -91,13 +97,28 @@ header img {
   float: left;
   font-size: 2em;
   padding: 10px 0;
+  max-width: 200px;
+  width: 100%;
+  height: auto;
+  float: left;
+  display: inline-block;
   text-decoration: none; }
+  @media (min-width: 768px) {
+    .header .logo {
+      padding: 20px 0;
+      max-width: 300px; } }
 
 /* menu */
 .header .menu {
   clear: both;
   max-height: 0;
-  transition: max-height .2s ease-out; }
+  transition: max-height .2s ease-out;
+  margin-top: 8px;
+  box-shadow: rgba(0, 0, 0, 0.33) 0px 25px 25px; }
+  @media (min-width: 1024px) {
+    .header .menu {
+      margin-top: 15px;
+      box-shadow: none; } }
 
 /* menu icon */
 .header .menu-icon {
@@ -106,7 +127,11 @@ header img {
   float: right;
   padding: 28px 20px;
   position: relative;
-  user-select: none; }
+  user-select: none;
+  margin-top: 0; }
+  @media (min-width: 768px) {
+    .header .menu-icon {
+      margin-top: 15px; } }
 
 .header .menu-icon .navicon {
   background: #333;
@@ -115,6 +140,15 @@ header img {
   position: relative;
   transition: background .2s ease-out;
   width: 18px; }
+
+.header .menu li:nth-child(1) {
+  margin-top: 0; }
+  @media (min-width: 768px) {
+    .header .menu li:nth-child(1) {
+      margin-top: 8px; } }
+  @media (min-width: 1024px) {
+    .header .menu li:nth-child(1) {
+      margin-top: 0; } }
 
 .header .menu-icon .navicon:before,
 .header .menu-icon .navicon:after {
@@ -152,10 +186,7 @@ header img {
 .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
   top: 0; }
 
-@media (max-width: 375px) {
-  .logo {
-    width: 220px; } }
-@media (min-width: 820px) {
+@media (min-width: 1024px) {
   .header li {
     float: left; }
 
