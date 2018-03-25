@@ -230,6 +230,57 @@ a {
 	}
 }
 
+.svcontainer {
+	margin: 50px 0 0 0;
+	.svc-left {
+		width: 50%;
+		float: left;
+		.svc-ul {
+			list-style-type: none;
+			li {
+			    height: auto;
+    			overflow: hidden;
+			    padding: 0 0 40px 0;
+				img {
+					width: 75px;
+					height: 75px;
+					display: inline-block;
+					float: left;
+				}
+				h3 {
+					display: inline-block;
+					float: left;
+					border-bottom: $orange 2px solid;
+					height:27px;
+					margin: 0;
+					padding: 5px 5%;
+				}
+				p {
+					display: inline-block;
+					float: left;
+				    width: 70%;
+    				padding: 5px 5%;
+    				margin: 0;
+				}
+			}
+		}
+	}
+	.svc-right {
+		width: 50%;
+		float: left;
+		h4 {
+			margin: 0;
+		}
+		p {
+			margin-top: 0;
+		}
+		.audit-text {
+			border-left: 2px solid $orange;
+			padding-left: 25px;
+		}
+	}
+}
+
 #bio {
 	text-align: center;
 	background: #f1f1f1;

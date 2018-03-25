@@ -43,7 +43,7 @@
 						<h3>Tim Broadwater</h3>
 					</div>
 					<div class="bio-container-right">
-						<p>A native of North Central West Virginia, Tim has over 20+ years of experience in UX. His UX background spans across eCommerce, non-profits, healthcare, government, etc. As a Full Stack UXer, Tim focuses on content strategy, user interface design, front-end development, UX research, and business strategy. Some of Tim’s other skills include bear power, coffee consumption, data crunching, social media addiction, and tattoos.</p>
+						<p>A native of North Central West Virginia, Tim has over 20+ years of experience in UX. His UX background spans across eCommerce, non-profits, healthcare, government, etc. As a Full Stack UXer, Tim focuses on content strategy, user interface design, front-end development, UX research, and business strategy. Tim has come to think of his professional career as being one that lights fuses, and walks out the door. Some of Tim’s other skills include bear power, coffee consumption, data crunching, and tattoos.</p>
 					</div>
 				</div>
 				<div class="bio-container">

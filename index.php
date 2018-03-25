@@ -21,7 +21,7 @@
 				<ul>
 					<li>
 						<div class="li-left">
-							<img alt="bullet point" src="img/service-01.svg">
+							<a href="/services"><img alt="bullet point" src="img/service-01.svg"></a>
 						</div>
 						<div class="li-right">
 							<h3>Audits</h3>
@@ -30,29 +30,29 @@
 					</li>
 					<li>
 						<div class="li-left">
-							<img alt="bullet point" src="img/service-06.svg">
+							<a href="/services"><img alt="bullet point" src="img/service-04.svg"></a>
 						</div>
 						<div class="li-right">
-							<h3>Design & Development</h3>
-							<p>We take an iterative approach to group sketching, wireframes, user interface design, and storyboarding. We build on these designs to deliver style guides, design systems, web designs, and even front-end development.</p>
-						</div>
-					</li>
-					<li>
-						<div class="li-left">
-							<img alt="bullet point" src="img/service-04.svg">
-						</div>
-						<div class="li-right">
-							<h3>Qualitative Research</h3>
+							<h3>Customer Research</h3>
 							<p>You can observe users interacting with your apps, websites, and prototypes. We can design studies, facilitate sessions, and deliver insights with recommendations for improvement through user journeys, surveys, focus groups, and empathy mapping.</p>
 						</div>
 					</li>
 					<li>
 						<div class="li-left">
-							<img alt="bullet point" src="img/service-05.svg">
+							<a href="/services"><img alt="bullet point" src="img/service-05.svg"></a>
 						</div>
 						<div class="li-right">
 							<h3>Quantitative Research</h3>
 							<p>We can discover, interpret, and communicate meaningful patterns in your user traffic or usage data. By examining user flows and heat maps, or conducting analytics installation or audits, we can visualize your user data into a format that you understand, act upon, and improve.</p>
+						</div>
+					</li>
+					<li>
+						<div class="li-left">
+							<a href="/services"><img alt="bullet point" src="img/service-06.svg"></a>
+						</div>
+						<div class="li-right">
+							<h3>User Interface Design</h3>
+							<p>We take an iterative approach to group sketching, wireframes, user interface design, and storyboarding. We build on these designs to deliver style guides, design systems, and even web designs.</p>
 						</div>
 					</li>
 				</ul>
