@@ -15,14 +15,16 @@
 			</div>
 		</section>
 		<section id="process">
-			<div class="section-wrapper">
+			<div class="section-wrapper2">
 				<div class="process-block">
 					<div class="process-left">
 						<img src="../img/process1.png" alt="Something here">
 					</div>
 					<div class="process-right">
-						<h3>Meet Janice</h3>
-						<p>She has a nonprofit that conducts essential job skill building workshops. She runs a small website that accepts donations and allows users to sign up for skill building workshops.</p>
+						<div class="flexy">
+							<h3>Meet John</h3>
+							<p>who has a nonprofit that conducts essential job skill-building training. He runs a small website that accepts donations and allows users to sign up for workshops.</p>
+						</div>
 					</div>
 				</div>
 				<div class="process-block">
@@ -30,8 +32,10 @@
 						<img src="../img/process2.png" alt="Something here">
 					</div>
 					<div class="process-right">
-						<h3>But...</h3>
-						<p>Janice’s signups aren’t growing as fast as she’d like, and her website doesn’t collect the donations she needs to expand her workshops.</p>
+						<div class="flexy">
+							<h3>However</h3>
+							<p>John’s signups aren’t growing as fast as he’d like, and his website doesn’t collect the donations he needs to expand his workshops.</p>
+						</div>
 					</div>
 				</div>
 				<div class="process-block">
@@ -39,8 +43,10 @@
 						<img src="../img/process3.png" alt="Something here">
 					</div>
 					<div class="process-right">
-						<h3>70% of people </h3>
-						<p>Research a company on the web before deciding to do business with them, usually by visiting its website. So you have a website… GREAT! </p>
+						<div class="flexy">
+							<h3>John, like 70% of people </h3>
+							<p>research a company on the web before deciding to do business with them, usually by visiting its website.</p>
+						</div>
 					</div>
 				</div>
 				<div class="process-block">
@@ -48,9 +54,10 @@
 						<img src="../img/process4.png" alt="Something here">
 					</div>
 					<div class="process-right">
-						<h3>40% of your customers</h3>
-						<p>Will turn to your competition after a bad online experience. And 61% of them will move to another site if they don’t find what they’re looking for right away!
-</p>
+						<div class="flexy">
+							<h3>But 40% of John's customers</h3>
+							<p>will turn to his competition after a bad online experience. 61% of them will move to another website if they don’t find what they’re looking for right away. That’s where we can help!</p>
+						</div>
 					</div>
 				</div>	
 				<div class="process-block">
@@ -58,8 +65,10 @@
 						<img src="../img/process5.png" alt="Something here">
 					</div>
 					<div class="process-right">
-						<h3>That’s where we can help!</h3>
-						<p>We pride ourselves in being able to help clients discover what their customers really want out of their digital experience, and craft solutions that drive your business while meeting your users needs. We call this process User Experience Research and Design, and we’ve been doing it a combined 30 years! </p>
+						<div class="flexy">
+							<h3>We pride ourselves</h3>
+							<p>on being able to help clients discover what their customers really want out of their digital experience, and craft solutions that drive their business while meeting their users needs. We call this process User Experience Research and Design, and we’ve been doing it a combined 40 years!</p>
+						</div>
 					</div>
 				</div>
 				<div class="process-block">
@@ -67,9 +76,10 @@
 						<img src="../img/process6.png" alt="Something here">
 					</div>
 					<div class="process-right">
-						<h3>First we’ll do some research… </h3>
-						<p>Who are Janice’s users? Who might be interested? What do they want out of essential job skill workshops? And how can we make online donation easier and more fulfilling experience? By using tried and true UX research methods to gather info about Janice’s customers, we can design a great digital experience, and help her discover new workshops that will allow her to make an even bigger impact.
-</p>
+						<div class="flexy">
+							<h3>First we’ll do some research</h3>
+							<p>like finding out who are John’s users. Who might be interested? What do they want out of essential skill-building workshops, and how can we make online donation easier and more fulfilling experience? By using tried and true UX research methods to gather info about John’s customers, we can design a great digital experience, and help him discover new workshops that will allow his to make an even bigger impact.</p>
+						</div>
 					</div>
 				</div>
 				<div class="process-block">
@@ -77,8 +87,10 @@
 						<img src="../img/process7.png" alt="Something here">
 					</div>
 					<div class="process-right">
-						<h3>Most web agencies focus</h3>
-						<p>On getting clients through the door as quickly as possible. Their business models typically rely on output and delivery of designs or development, often skipping the research process altogether. What you end up with is a hefty price tag for a solution that might look flashy, but may not be in touch with your customers and their needs. </p>
+						<div class="flexy">
+							<h3>Most web agencies focus</h3>
+							<p>on getting clients through the door as quickly as possible. Their business models typically rely on output and delivery of designs or development, often skipping the research process altogether. What you end up with is a hefty price tag for a solution that might look flashy, but may not be in touch with your customers and their needs.</p>
+						</div>
 					</div>
 				</div>
 				<div class="process-block">
@@ -86,9 +98,10 @@
 						<img src="../img/process8.png" alt="Something here">
 					</div>
 					<div class="process-right">
-						<h3>UserGoodness is different...</h3>
-						<p>We listen, strategize, research and collect data, and help to inform success for each project we take on! Pretty sweet, huh? Give us a buzz on our contact form below. We provide free consultations to nonprofits and businesses alike.
-</p>
+						<div class="flexy">
+							<h3>UserGoodness is different</h3>
+							<p>because we listen, strategize, research, collect data, and help to inform success for each project we take on! Pretty sweet, huh? Give us a buzz on our contact form below. We provide free consultations to busonesses, nonprofits, and organizations alike.</p>
+						</div>
 					</div>
 				</div>											
 			</div>
