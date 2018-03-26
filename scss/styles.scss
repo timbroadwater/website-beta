@@ -32,7 +32,7 @@ a {
     margin: 0 auto;
     background: none;
     @include mq(tablet){
-    	background: url(../img/honeycomb3.png) no-repeat;
+    	background: url(../img/honeycomb4.png) no-repeat;
     	background-position: 60px;
     }
 }
@@ -89,18 +89,39 @@ a {
 	}
 }
 
+#hphero {
+	background: $orange;
+	text-align: center;
+	h2 {
+		color: $white;
+		font-size: 18px;
+		@include mq(tablet){
+			font-size: 24px;
+		}
+		@include mq(desktop){
+			font-size: 30px;
+		}
+	}
+}
+
 #carousel {
 	background: url(../img/carousel.jpg);
 	background-size: cover;
 	background-position: center center;
 	height: 150px;
 	transition: height 0.15s ease-out;
+	margin-top: 50px;
 	@include mq(tablet){
+		margin-top: 90px;
 		height: 300px;
 	}
 	@include mq(desktop){
 		height: 450px;
 	}
+}
+
+#how {
+	text-align: center;
 }
 
 #nonprofits, #contact, #mission {
@@ -272,31 +293,32 @@ a {
 		width: 100%;
 		float: left;
 		.accbutton {
-			margin-bottom: 10px;
-			overflow: hidden;
+		    padding-bottom: 20px;
+		    overflow: hidden;
+		    border-bottom: 1px solid #ccc;
+		    margin-bottom: 20px;
 		    .img-wrap {
-		    	width: 50px;
+		    	width: 20%;
 		    	display: inline-block;
 				float: left;
 				img {
-					width: 50px;
-					height: 50px;
+					width: 100%;
+					max-width: 75px;
+					height: auto;
 					display: inline-block;
 					float: right;
-					padding-top: 12px;
 				}
 			}
 			.text-wrap {
-				width: 80%;
+				width: 70%;
 				display: inline-block;
 				float: left;
 				h3 {
-					border-bottom: $orange 1px solid;
-					height:27px;
+					height: auto;
 					margin: 0;
-					padding: 5px 5%;
+					padding: 0 5%;
 					width: 90%;
-					font-size: 1.17em;
+					font-size: 1em;
 					@include mq(tablet){
 						font-size: 1em;
 					}
@@ -305,10 +327,21 @@ a {
 					}
 				}
 				p {
-					padding: 5px 5%;
+					padding: 0 5%;
 					margin: 0;
 					width: 90%;
+					font-size: 0.75em;
 				}
+			}
+			.fa {
+				width: 10%;
+				margin: 0;
+				padding: 0;
+				display: inline-block;
+				font-size: 200%;
+				color: $orange;
+				padding-top: 20px;
+				text-align: center;
 			}
 		}
 	}
@@ -533,7 +566,8 @@ a {
 
 #quote {
 	text-align: center;
-	background: $lightgrey;
+	background: url(../img/honeycomb4.png) no-repeat $orange;
+	background-position: 60px;
 	.message {
 		width: 100%;
 		font-style: italic;
@@ -580,7 +614,6 @@ a {
 //Components – specific UI components. This is where majority of our work takes place and our UI components are often composed of Objects and Components
 .dark {
 	font-weight: bold;
-	color: #000;
 }
 
 .center {
@@ -617,4 +650,14 @@ a {
 
 .destroy {
 	display: none;
+}
+
+.rotate {
+	transform: rotate(180deg) !important;
+	padding-top: 0px !important;
+	padding-bottom: 20px !important;
+}
+
+.whiteborder {
+    border-color: #fff !important;
 }

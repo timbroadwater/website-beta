@@ -218,7 +218,7 @@ a {
   background: none; }
   @media (min-width: 768px) {
     .banner-wrapper {
-      background: url(../img/honeycomb3.png) no-repeat;
+      background: url(../img/honeycomb4.png) no-repeat;
       background-position: 60px; } }
 
 .section-wrapper {
@@ -268,18 +268,36 @@ a {
       #hero h2 {
         font-size: 30px; } }
 
+#hphero {
+  background: #faa918;
+  text-align: center; }
+  #hphero h2 {
+    color: #fff;
+    font-size: 18px; }
+    @media (min-width: 768px) {
+      #hphero h2 {
+        font-size: 24px; } }
+    @media (min-width: 1024px) {
+      #hphero h2 {
+        font-size: 30px; } }
+
 #carousel {
   background: url(../img/carousel.jpg);
   background-size: cover;
   background-position: center center;
   height: 150px;
-  transition: height 0.15s ease-out; }
+  transition: height 0.15s ease-out;
+  margin-top: 50px; }
   @media (min-width: 768px) {
     #carousel {
+      margin-top: 90px;
       height: 300px; } }
   @media (min-width: 1024px) {
     #carousel {
       height: 450px; } }
+
+#how {
+  text-align: center; }
 
 #nonprofits p, #contact p, #mission p {
   color: #302f30; }
@@ -421,29 +439,30 @@ a {
     width: 100%;
     float: left; }
     .svcontainerm .svc .accbutton {
-      margin-bottom: 10px;
-      overflow: hidden; }
+      padding-bottom: 20px;
+      overflow: hidden;
+      border-bottom: 1px solid #ccc;
+      margin-bottom: 20px; }
       .svcontainerm .svc .accbutton .img-wrap {
-        width: 50px;
+        width: 20%;
         display: inline-block;
         float: left; }
         .svcontainerm .svc .accbutton .img-wrap img {
-          width: 50px;
-          height: 50px;
+          width: 100%;
+          max-width: 75px;
+          height: auto;
           display: inline-block;
-          float: right;
-          padding-top: 12px; }
+          float: right; }
       .svcontainerm .svc .accbutton .text-wrap {
-        width: 80%;
+        width: 70%;
         display: inline-block;
         float: left; }
         .svcontainerm .svc .accbutton .text-wrap h3 {
-          border-bottom: #faa918 1px solid;
-          height: 27px;
+          height: auto;
           margin: 0;
-          padding: 5px 5%;
+          padding: 0 5%;
           width: 90%;
-          font-size: 1.17em; }
+          font-size: 1em; }
           @media (min-width: 768px) {
             .svcontainerm .svc .accbutton .text-wrap h3 {
               font-size: 1em; } }
@@ -451,9 +470,19 @@ a {
             .svcontainerm .svc .accbutton .text-wrap h3 {
               font-size: 1.17em; } }
         .svcontainerm .svc .accbutton .text-wrap p {
-          padding: 5px 5%;
+          padding: 0 5%;
           margin: 0;
-          width: 90%; }
+          width: 90%;
+          font-size: 0.75em; }
+      .svcontainerm .svc .accbutton .fa {
+        width: 10%;
+        margin: 0;
+        padding: 0;
+        display: inline-block;
+        font-size: 200%;
+        color: #faa918;
+        padding-top: 20px;
+        text-align: center; }
 
 .svcontainer {
   margin: 50px 0 0 0;
@@ -636,7 +665,8 @@ a {
 
 #quote {
   text-align: center;
-  background: #bbbbbb; }
+  background: url(../img/honeycomb4.png) no-repeat #faa918;
+  background-position: 60px; }
   #quote .message {
     width: 100%;
     font-style: italic;
@@ -671,8 +701,7 @@ a {
   color: #049634; }
 
 .dark {
-  font-weight: bold;
-  color: #000; }
+  font-weight: bold; }
 
 .center {
   text-align: center;
@@ -701,5 +730,13 @@ a {
 
 .destroy {
   display: none; }
+
+.rotate {
+  transform: rotate(180deg) !important;
+  padding-top: 0px !important;
+  padding-bottom: 20px !important; }
+
+.whiteborder {
+  border-color: #fff !important; }
 
 /*# sourceMappingURL=styles.css.map */
