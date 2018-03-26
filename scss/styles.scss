@@ -15,16 +15,6 @@ p, ol, ul {
 }
 
 //Objects – class-based selectors which define undecorated design patterns, for example media object known from OOCSS
-.dark {
-	font-weight: bold;
-	color: #000;
-}
-
-.center {
-	text-align: center;
-	max-width: 640px;
-    margin: 0 auto;
-}
 
 a {
 	color: $greenlink;
@@ -69,6 +59,17 @@ a {
 	}
 }
 
+.section-wrapper3 {
+	max-width: 800px;
+	width: 90%;
+	padding: 10px 5%;
+	overflow: hidden;
+    margin: 0 auto;
+    @include mq(tablet){
+		padding: 20px 5%;
+	}
+}
+
 #hero {
 	margin-top: 50px;
 	background: $orange;
@@ -102,6 +103,28 @@ a {
 	}
 }
 
+#nonprofits, #contact, #mission {
+	p {
+		color: $darkgrey;
+	}
+	ol, ul {
+		text-align: left;
+		margin: 0 0 0 20px;
+		padding: 0;
+		color: $darkgrey;
+		li {
+			margin: 0;
+			padding: 0 0 10px 0;
+		}
+	}
+	h2 {
+		color: $darkgrey;
+	}
+	h3 {
+		color: $darkgrey;
+	}
+}
+
 #process {
 	.process-block {
 		margin: 0 0 30px 0;
@@ -114,7 +137,7 @@ a {
 		.process-left {
 			width: 100%;
 			float: left;
-			text-align: left;
+			text-align: center;
 			display: block;
 			overflow: hidden;
 			height: auto;
@@ -126,6 +149,7 @@ a {
 			}
 			@include mq(tablet){
 				width: 33%;
+				text-align: left;
 			}
 		}
 		.process-right {
@@ -136,11 +160,13 @@ a {
 			overflow: hidden;
 			height: auto;
 			margin: 0;
+			text-align: center;
 			@include mq(tablet){
 				width: 63%;
 				margin: 0 0 0 4%;
 				display: flex;
 				height: 265px;
+				text-align: left;
 			}
 			.flexy {
 				display: flex;
@@ -230,8 +256,70 @@ a {
 	}
 }
 
+.svcontainerm {
+	margin: 50px 0 0 0;
+	display: block;
+	@include mq(tablet){
+		display: none;
+	}
+	h4 {
+		margin: 0;
+	}
+	p {
+		margin-top: 0;
+	}
+	.svc {
+		width: 100%;
+		float: left;
+		.accbutton {
+			margin-bottom: 10px;
+			overflow: hidden;
+		    .img-wrap {
+		    	width: 50px;
+		    	display: inline-block;
+				float: left;
+				img {
+					width: 50px;
+					height: 50px;
+					display: inline-block;
+					float: right;
+					padding-top: 12px;
+				}
+			}
+			.text-wrap {
+				width: 80%;
+				display: inline-block;
+				float: left;
+				h3 {
+					border-bottom: $orange 1px solid;
+					height:27px;
+					margin: 0;
+					padding: 5px 5%;
+					width: 90%;
+					font-size: 1.17em;
+					@include mq(tablet){
+						font-size: 1em;
+					}
+					@include mq(desktop){
+					    font-size: 1.17em;
+					}
+				}
+				p {
+					padding: 5px 5%;
+					margin: 0;
+					width: 90%;
+				}
+			}
+		}
+	}
+}
+
 .svcontainer {
 	margin: 50px 0 0 0;
+	display: none;
+	@include mq(tablet){
+		display: block;
+	}
 	.svc-left {
 		width: 50%;
 		float: left;
@@ -240,27 +328,42 @@ a {
 			li {
 			    height: auto;
     			overflow: hidden;
-			    padding: 0 0 40px 0;
-				img {
-					width: 75px;
-					height: 75px;
-					display: inline-block;
+			    margin: 0 0 20px 0 !important;
+			    .img-wrap {
+			    	width: 25%;
+			    	display: inline-block;
 					float: left;
+					img {
+						width: 75px;
+						height: 75px;
+						display: inline-block;
+						float: right;
+						cursor: pointer;
+					}
 				}
-				h3 {
+				.text-wrap {
+					width: 75%;
 					display: inline-block;
 					float: left;
-					border-bottom: $orange 2px solid;
-					height:27px;
-					margin: 0;
-					padding: 5px 5%;
-				}
-				p {
-					display: inline-block;
-					float: left;
-				    width: 70%;
-    				padding: 5px 5%;
-    				margin: 0;
+					h3 {
+						border-bottom: $orange 2px solid;
+						height:27px;
+						margin: 0;
+						padding: 5px 5%;
+						width: 90%;
+						font-size: 1.17em;
+						@include mq(tablet){
+							font-size: 1em;
+						}
+						@include mq(desktop){
+						    font-size: 1.17em;
+						}
+					}
+					p {
+	    				padding: 5px 5%;
+	    				margin: 0;
+	    				width: 90%;
+					}
 				}
 			}
 		}
@@ -274,9 +377,12 @@ a {
 		p {
 			margin-top: 0;
 		}
-		.audit-text {
+		.audit-text {} 
+
+		.rtext {
 			border-left: 2px solid $orange;
 			padding-left: 25px;
+			min-height: 556px;
 		}
 	}
 }
@@ -369,28 +475,6 @@ a {
 			padding: 0 0 0 5%;
 		}
 	
-	}
-}
-
-#nonprofits, #contact, #mission {
-	p {
-		color: $darkgrey;
-	}
-	ol, ul {
-		text-align: left;
-		margin: 0 0 0 20px;
-		padding: 0;
-		color: $darkgrey;
-		li {
-			margin: 0;
-			padding: 0 0 10px 0;
-		}
-	}
-	h2 {
-		color: $darkgrey;
-	}
-	h3 {
-		color: $darkgrey;
 	}
 }
 
@@ -494,6 +578,20 @@ a {
 
 
 //Components – specific UI components. This is where majority of our work takes place and our UI components are often composed of Objects and Components
+.dark {
+	font-weight: bold;
+	color: #000;
+}
+
+.center {
+	text-align: center;
+	max-width: 640px;
+    margin: 0 auto;
+}
+
+.greybg {
+	background: #f1f1f1;
+}
 
 
 //Trumps – utilities and helper classes with ability to override anything which goes before in the triangle, eg. hide helper class
@@ -501,4 +599,22 @@ a {
 	background: url(../img/honeycomb2.png) repeat $orange !important;
 	background-size: 300px !important;
 	background-position: center center !important;
+}
+
+.svc-select {
+	width: 85% !important;
+	padding: 0 0 10px 15% !important;
+}
+
+.hide {
+	position:absolute;
+	left:-10000px;
+	top:auto;
+	width:1px;
+	height:1px;
+	overflow:hidden;
+}
+
+.destroy {
+	display: none;
 }

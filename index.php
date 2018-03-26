@@ -58,14 +58,16 @@
 				</ul>
 			</div>
 		</section>
-		<section id="footer">
+		<section id="footer" class="greybg">
 			<?php include 'imports/footer.html';?>
 		</section>
 		<section id="quote">
-			<div class="section-wrapper">
+			<div class="section-wrapper3">
 				<span class="message"></span>
 			</div>
 		</section>
+
+		<!-- Nav Selection -->
 		<script type="text/javascript">
 			$(function() {
 			  $('.nav-home').addClass('selected');

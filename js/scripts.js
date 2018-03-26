@@ -42,3 +42,74 @@ $(window).on('scroll', function() {
         }
     });
 });
+
+// Services Page
+$(document).ready(function(){
+	$('.audit').addClass('svc-select');
+	$('.customer-text').addClass('hide');
+	$('.quant-text').addClass('hide');
+	$('.ui-text').addClass('hide');
+
+	// Audit
+	$('.audit').click(function() {
+  		$('.svclist').removeClass('svc-select');
+  		$('.audit').addClass('svc-select');
+  		$('.rtext').addClass('hide');
+  		$('.audit-text').removeClass('hide');
+	});
+
+	// customer
+	$('.customer').click(function() {
+  		$('.svclist').removeClass('svc-select');
+  		$('.customer').addClass('svc-select');
+  		$('.rtext').addClass('hide');
+  		$('.customer-text').removeClass('hide');
+	});
+
+	// quant
+	$('.quant').click(function() {
+  		$('.svclist').removeClass('svc-select');
+  		$('.quant').addClass('svc-select');
+  		$('.rtext').addClass('hide');
+  		$('.quant-text').removeClass('hide');
+	});
+
+	// uidesign
+	$('.uidesign').click(function() {
+  		$('.svclist').removeClass('svc-select');
+  		$('.uidesign').addClass('svc-select');
+  		$('.rtext').addClass('hide');
+  		$('.ui-text').removeClass('hide');
+	});
+
+});
+
+// Mobile Services Page
+$(document).ready(function(){
+
+	// Audit
+	$('.auditm').click(function() {
+		$('.auditm p').slideToggle();
+  		$('.audit-textm').slideToggle();
+
+	});
+
+	// customer
+	$('.customerm').click(function() {
+		$('.customerm p').slideToggle();
+  		$('.customer-textm').slideToggle();
+	});
+
+	// quant
+	$('.quantm').click(function() {
+		$('.quantm p').slideToggle();
+  		$('.quant-textm').slideToggle();
+	});
+
+	// uidesign
+	$('.uidesignm').click(function() {
+		$('.uidesignm p').slideToggle();
+  		$('.uidesign-textm').slideToggle();
+	});
+
+});
