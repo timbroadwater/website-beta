@@ -87,7 +87,7 @@
 			<div class="section-wrapper2">
 				<h2>History of UX</h2>
 				<p>UX is over 500 years old… and still kickin’ it!</p>
-				<p>UX principles have been traced back to before the Renaissance era [source?], but didn’t find a name until 1995, when Don Norman¹ asked to be called a UX Architect when he joined Apple’s research and design department focused on human-centered products [name of department may sound more important?]. Over the next 23 years, UX became the Queen Bee of methodologies for studying the interactions between humans and technology.</p>
+				<p>UX principles have been traced back to before the Renaissance era, but didn’t find a name until 1995, when Don Norman¹ asked to be called a UX Architect when he joined Apple’s research and design department focused on human-centered products. Over the next 23 years, UX became the Queen Bee of methodologies for studying the interactions between humans and technology.</p>
 			</div>
 		</section>
 
