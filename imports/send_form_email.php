@@ -17,7 +17,7 @@ if(isset($_POST['email'])) {
  
     // EDIT THE 2 LINES BELOW AS REQUIRED
     $email_to = "info@usergoodness.com";
-    $email_subject = "Contact | User Goodness Website";
+    $email_subject = "Contact | UserGoodness Website";
  
     function died($error) {
         // your error code can go here
@@ -26,7 +26,7 @@ if(isset($_POST['email'])) {
         echo '<span class="error">';
         echo $error;
         echo "</span><br />";
-        echo 'Please <a href="index.html">go back</a> and fix these errors.<br /><br />';
+        echo 'Please <a href="iframe.html">go back</a> and fix these errors.<br /><br />';
         die();
     }
  

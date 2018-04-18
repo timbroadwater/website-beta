@@ -72,6 +72,8 @@ $(window).on('scroll', function() {
 // Services Page
 $(document).ready(function(){
 	$('.audit').addClass('svc-select');
+  $('.audit h3').addClass('svc-border');
+  $('.audit h3').addClass('svc-orange');
 	$('.customer-text').addClass('hide');
 	$('.quant-text').addClass('hide');
 	$('.ui-text').addClass('hide');
@@ -80,6 +82,12 @@ $(document).ready(function(){
 	$('.audit').click(function() {
   		$('.svclist').removeClass('svc-select');
   		$('.audit').addClass('svc-select');
+
+      $('.svclist h3').removeClass('svc-border');
+      $('.svclist h3').removeClass('svc-orange');
+      $('.audit h3').addClass('svc-border');
+      $('.audit h3').addClass('svc-orange');
+
   		$('.rtext').addClass('hide');
   		$('.audit-text').removeClass('hide');
 	});
@@ -88,6 +96,12 @@ $(document).ready(function(){
 	$('.customer').click(function() {
   		$('.svclist').removeClass('svc-select');
   		$('.customer').addClass('svc-select');
+
+      $('.svclist h3').removeClass('svc-border');
+      $('.svclist h3').removeClass('svc-orange');
+      $('.customer h3').addClass('svc-border');
+      $('.customer h3').addClass('svc-orange');
+
   		$('.rtext').addClass('hide');
   		$('.customer-text').removeClass('hide');
 	});
@@ -96,6 +110,12 @@ $(document).ready(function(){
 	$('.quant').click(function() {
   		$('.svclist').removeClass('svc-select');
   		$('.quant').addClass('svc-select');
+
+      $('.svclist h3').removeClass('svc-border');
+      $('.svclist h3').removeClass('svc-orange');
+      $('.quant h3').addClass('svc-border');
+      $('.quant h3').addClass('svc-orange');
+
   		$('.rtext').addClass('hide');
   		$('.quant-text').removeClass('hide');
 	});
@@ -104,6 +124,12 @@ $(document).ready(function(){
 	$('.uidesign').click(function() {
   		$('.svclist').removeClass('svc-select');
   		$('.uidesign').addClass('svc-select');
+
+      $('.svclist h3').removeClass('svc-border');
+      $('.svclist h3').removeClass('svc-orange');
+      $('.uidesign h3').addClass('svc-border');
+      $('.uidesign h3').addClass('svc-orange');
+
   		$('.rtext').addClass('hide');
   		$('.ui-text').removeClass('hide');
 	});
@@ -138,4 +164,53 @@ $(document).ready(function(){
   		$('.uidesignm').toggleClass('whiteborder');
 	});
 
+});
+
+// Document Column Resizing 
+equalheight = function(container){
+
+  var currentTallest = 0,
+  currentRowStart    = 0,
+  rowDivs            = new Array(),
+  $el,
+  topPosition        = 0;
+
+  $(container).each(function() {
+
+    $el = $(this);
+    $($el).height('auto')
+    topPostion = $el.position().top;
+
+    if (currentRowStart != topPostion) {
+  
+      for (currentDiv = 0 ; currentDiv < rowDivs.length ; currentDiv++) {
+        rowDivs[currentDiv].height(currentTallest);
+      }
+
+      rowDivs.length  = 0; // empty the array
+      currentRowStart = topPostion;
+      currentTallest  = $el.height();
+        rowDivs.push($el);
+      } 
+      else {
+        rowDivs.push($el);
+        currentTallest = (currentTallest < $el.height()) ? ($el.height()) : (currentTallest);
+      }
+      for (currentDiv = 0 ; currentDiv < rowDivs.length ; currentDiv++) {
+        rowDivs[currentDiv].height(currentTallest);
+      }
+    });
+
+}
+
+$(document).ready(function() {
+  equalheight('.equalHeight');
+});
+
+$(window).load(function() {
+  equalheight('.equalHeight');
+});
+
+$(window).resize(function(){
+  equalheight('.equalHeight');
 });

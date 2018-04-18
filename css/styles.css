@@ -204,7 +204,8 @@ p, ol, ul {
   line-height: 150%; }
 
 a {
-  color: #049634; }
+  color: #049634;
+  cursor: pointer; }
 
 .error {
   color: red; }
@@ -250,6 +251,9 @@ a {
   @media (min-width: 768px) {
     .section-wrapper3 {
       padding: 20px 5%; } }
+
+h2 > i, h3 > i {
+  padding: 0 6px 0 0; }
 
 #hero {
   margin-top: 50px;
@@ -432,7 +436,8 @@ a {
     .svcontainerm {
       display: none; } }
   .svcontainerm h4 {
-    margin: 0; }
+    margin: 0;
+    color: #5ac1a0; }
   .svcontainerm p {
     margin-top: 0; }
   .svcontainerm .svc {
@@ -514,12 +519,15 @@ a {
           display: inline-block;
           float: left; }
           .svcontainer .svc-left .svc-ul li .text-wrap h3 {
-            border-bottom: #faa918 2px solid;
+            border-bottom: #fff 2px solid;
             height: 27px;
             margin: 0;
             padding: 5px 5%;
             width: 90%;
-            font-size: 1.17em; }
+            font-size: 1.17em;
+            cursor: pointer; }
+            .svcontainer .svc-left .svc-ul li .text-wrap h3:hover {
+              color: #faa918 !important; }
             @media (min-width: 768px) {
               .svcontainer .svc-left .svc-ul li .text-wrap h3 {
                 font-size: 1em; } }
@@ -534,7 +542,8 @@ a {
     width: 50%;
     float: left; }
     .svcontainer .svc-right h4 {
-      margin: 0; }
+      margin: 0;
+      color: #5ac1a0; }
     .svcontainer .svc-right p {
       margin-top: 0; }
     .svcontainer .svc-right .rtext {
@@ -605,19 +614,29 @@ a {
 #exp .exp-left {
   width: 100%;
   float: left;
-  padding: 0; }
+  padding: 0;
+  margin: 0; }
   @media (min-width: 768px) {
     #exp .exp-left {
-      width: 45%;
-      padding: 0 5% 0 0; } }
+      width: 41%;
+      margin: 20px 5% 0 0;
+      padding: 10px 2%;
+      background: #fff;
+      box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+      border-bottom: 4px solid #faa918; } }
 #exp .exp-right {
   width: 100%;
   float: left;
-  padding: 0; }
+  padding: 0;
+  margin: 0; }
   @media (min-width: 768px) {
     #exp .exp-right {
-      width: 45%;
-      padding: 0 0 0 5%; } }
+      width: 41%;
+      margin: 20px 0 0 5%;
+      padding: 10px 2%;
+      background: #fff;
+      box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+      border-bottom: 4px solid #faa918; } }
 
 #footer {
   text-align: center; }
@@ -656,12 +675,6 @@ a {
         padding: 0 0 20px 5%; } }
     #footer .footer-right p {
       color: #302f30; }
-  #footer .fa {
-    font-size: 32px;
-    color: #5ac1a0;
-    cursor: pointer; }
-    #footer .fa:hover {
-      color: #faa918; }
 
 #quote {
   text-align: center;
@@ -675,16 +688,14 @@ a {
 
 #iframeform label {
   display: block;
-  font-weight: bold;
   font-size: 14px;
-  color: #5ac1a0; }
+  color: #515151; }
 #iframeform input, #iframeform textarea, #iframeform select {
   display: block;
   width: 99%;
   height: 35px;
   margin-bottom: 10px;
-  border-radius: 5px;
-  border: 1px solid #515151;
+  border: 1px solid #302f30;
   font-family: Roboto, Arial, sans;
   font-size: 12px; }
 #iframeform textarea {
@@ -692,16 +703,17 @@ a {
   resize: none; }
 #iframeform input[type="submit"] {
   max-width: 150px;
-  border-radius: 50px;
   border: none;
   font-weight: bold;
-  background: green;
-  color: white; }
+  background: #5ac1a0;
+  color: white;
+  border-radius: 5px; }
 #iframeform a {
-  color: #049634; }
+  color: #5ac1a0; }
 
 .dark {
-  font-weight: bold; }
+  font-weight: bold;
+  color: #5ac1a0; }
 
 .center {
   text-align: center;
@@ -710,6 +722,26 @@ a {
 
 .greybg {
   background: #f1f1f1; }
+
+.dshadow {
+  box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1); }
+
+.delink {
+  text-decoration: none; }
+
+.twitbut {
+  text-decoration: none;
+  border: 1px solid #5ac1a0;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer; }
+  .twitbut .fa {
+    font-size: 20px; }
+  .twitbut:hover {
+    background: #5ac1a0;
+    color: white !important; }
+    .twitbut:hover .fa {
+      color: white !important; }
 
 .mission-header {
   background: url(../img/honeycomb2.png) repeat #faa918 !important;
@@ -727,6 +759,12 @@ a {
   width: 1px;
   height: 1px;
   overflow: hidden; }
+
+.svc-border {
+  border-bottom: #faa918 2px solid !important; }
+
+.svc-orange {
+  color: #faa918 !important; }
 
 .destroy {
   display: none; }

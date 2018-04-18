@@ -15,9 +15,9 @@
 			</div>
 		</section>
 		<section id="process">
-			<div class="section-wrapper2">										<h2>Privacy Policy</h2>
+			<div class="section-wrapper2">										<h2><i class="fas fa-user-secret"></i> Privacy Policy</h2>
 				<p>We reserve the right to update the Website and these Terms of Use from time to time, at our discretion and without notice. As a user of this website, it is your responsibility to check this page for changes.</p>
-				<p>Unless otherwise stated, User Goodness LLC (referred to here forth as either “User Goodness LLC,” “we,” “our” or “us”) and/or its licensors own the intellectual property rights in the website and material on the website. Subject to the license below, all these intellectual property rights are reserved.</p>
+				<p>Unless otherwise stated, UserGoodness LLC (referred to here forth as either “UserGoodness LLC,” “we,” “our” or “us”) and/or its licensors own the intellectual property rights in the website and material on the website. Subject to the license below, all these intellectual property rights are reserved.</p>
 				<p>You may view, download for caching purposes only, and print pages from the website for your own personal use, subject to the restrictions set out below and elsewhere in these terms and conditions.</p>
 				<p>You must not: republish material from this website (including republication on another website); sell, rent or sub-license material from the website; reproduce, duplicate, copy or otherwise exploit material on this website for a commercial purpose; edit or otherwise modify any material on the website; or redistribute material from this website, except for content specifically and expressly made available for redistribution.</p>
 				<p>You must not use this website in any way that causes, or may cause, damage to the website or impairment of the availability or accessibility of the website; or in any way which is unlawful, illegal, fraudulent or harmful, or in connection with any unlawful, illegal, fraudulent or harmful purpose or activity.</p>
@@ -43,13 +43,13 @@
 				<p>If any provision of this website disclaimer is, or is found to be, unenforceable under applicable law, that will not affect the enforceability of the other provisions of this website disclaimer.</p>
 				<p>You hereby indemnify us and undertake to keep us indemnified against any losses, damages, costs, liabilities and expenses (including without limitation legal expenses and any amounts paid by us to a third party in settlement of a claim or dispute on the advice of our legal advisers) incurred or suffered by us arising out of any breach by you of any provision of these terms and conditions.</p>
 				<p>Without prejudice to our other rights under these terms and conditions, if you breach these terms and conditions in any way, we may take such action as what we deem appropriate to deal with the breach, including suspending your access to the website, prohibiting you from accessing the website, blocking computers using your IP address from accessing the website, contacting your internet service provider to request that they block your access to the website and/or bringing court proceedings against you.</p>
-				<p>These terms and conditions, together with our Privacy Policy, constitute the entire agreement between you and User Goodness LLC in relation to your use of this website, and supersede all previous agreements in respect of your use of this website.</p>
+				<p>These terms and conditions, together with our Privacy Policy, constitute the entire agreement between you and UserGoodness LLC in relation to your use of this website, and supersede all previous agreements in respect of your use of this website.</p>
 				<p>These terms and conditions will be governed by and construed in accordance with the Commonwealth of Pennsylvania, and any disputes relating to these terms and conditions will be subject to non-exclusive jurisdiction.</p>
 			</div>
 		</section>
 		<section class="greybg">
 			<div class="section-wrapper2">
-				<h2>Terms of Use</h2>
+				<h2><i class="far fa-file-alt"></i> Terms of Use</h2>
 				<p>We reserve the right to update the Website and this Privacy Policy from time to time, at our discretion and without notice. As a user of this website, it is your responsibility to check our policies for changes.</p>
 				<p>We automatically collect non-personally identifiable information from you when you visit our site.
 				IP Addresses: This includes your Internet Protocol (“IP”) address, which is the number automatically assigned to your computer whenever you access the Internet. This number does not identify your name, email address, or other personal information.</p>

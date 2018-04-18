@@ -1,6 +1,6 @@
-# User Goodness Website
+# UserGoodness Website
 
-The [User Goodness website](http://www.usergoodness.com) is a responsive website that utilizes:
+The [UserGoodness website](http://www.usergoodness.com) is a responsive website that utilizes:
 
 * [FontAwesome](http://fontawesome.io/)
 * jQuery
