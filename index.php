@@ -45,7 +45,7 @@
 				<ul>
 					<li>
 						<div class="li-left">
-							<a href="/services"><img alt="bullet point" src="img/service-01.svg"></a>
+							<a href="/services"><img alt="Audits" src="img/service-01.svg"></a>
 						</div>
 						<div class="li-right">
 							<a href="/services" class="delink"><h3>Audits</h3></a>
@@ -54,7 +54,7 @@
 					</li>
 					<li>
 						<div class="li-left">
-							<a href="/services"><img alt="bullet point" src="img/service-04.svg"></a>
+							<a href="/services"><img alt="Customer Research" src="img/service-04.svg"></a>
 						</div>
 						<div class="li-right">
 							<a href="/services" class="delink"><h3>Customer Research</h3></a>
@@ -63,7 +63,7 @@
 					</li>
 					<li>
 						<div class="li-left">
-							<a href="/services"><img alt="bullet point" src="img/service-05.svg"></a>
+							<a href="/services"><img alt="Quantitative Research" src="img/service-05.svg"></a>
 						</div>
 						<div class="li-right">
 							<a href="/services" class="delink"><h3>Quantitative Research</h3></a>
@@ -72,7 +72,7 @@
 					</li>
 					<li>
 						<div class="li-left">
-							<a href="/services"><img alt="bullet point" src="img/service-06.svg"></a>
+							<a href="/services"><img alt="User Interface Design" src="img/service-06.svg"></a>
 						</div>
 						<div class="li-right">
 							<a href="/services" class="delink"><h3>User Interface Design</h3></a>

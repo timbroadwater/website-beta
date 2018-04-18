@@ -18,7 +18,7 @@
 			<div class="section-wrapper2">
 				<div class="process-block">
 					<div class="process-left">
-						<img src="../img/process1.png" alt="Something here">
+						<img src="../img/process1.png" alt="t John...">
 					</div>
 					<div class="process-right">
 						<div class="flexy">
@@ -29,7 +29,7 @@
 				</div>
 				<div class="process-block">
 					<div class="process-left">
-						<img src="../img/process2.png" alt="Something here">
+						<img src="../img/process2.png" alt="However...">
 					</div>
 					<div class="process-right">
 						<div class="flexy">
@@ -40,7 +40,7 @@
 				</div>
 				<div class="process-block">
 					<div class="process-left">
-						<img src="../img/process3.png" alt="Something here">
+						<img src="../img/process3.png" alt="John, like 70% of people ...">
 					</div>
 					<div class="process-right">
 						<div class="flexy">
@@ -51,7 +51,7 @@
 				</div>
 				<div class="process-block">
 					<div class="process-left">
-						<img src="../img/process4.png" alt="Something here">
+						<img src="../img/process4.png" alt="But 40% of John's customers...">
 					</div>
 					<div class="process-right">
 						<div class="flexy">
@@ -62,7 +62,7 @@
 				</div>	
 				<div class="process-block">
 					<div class="process-left">
-						<img src="../img/process5.png" alt="Something here">
+						<img src="../img/process5.png" alt="We pride ourselves...">
 					</div>
 					<div class="process-right">
 						<div class="flexy">
@@ -73,7 +73,7 @@
 				</div>
 				<div class="process-block">
 					<div class="process-left">
-						<img src="../img/process6.png" alt="Something here">
+						<img src="../img/process6.png" alt="First we’ll do some research...">
 					</div>
 					<div class="process-right">
 						<div class="flexy">
@@ -84,7 +84,7 @@
 				</div>
 				<div class="process-block">
 					<div class="process-left">
-						<img src="../img/process7.png" alt="Something here">
+						<img src="../img/process7.png" alt="Most web agencies focus...">
 					</div>
 					<div class="process-right">
 						<div class="flexy">
@@ -95,7 +95,7 @@
 				</div>
 				<div class="process-block">
 					<div class="process-left">
-						<img src="../img/process8.png" alt="Something here">
+						<img src="../img/process8.png" alt="UserGoodness is different...">
 					</div>
 					<div class="process-right">
 						<div class="flexy">

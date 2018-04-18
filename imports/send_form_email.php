@@ -1,6 +1,6 @@
 <?php
 
-$cssItem = 'http://usergoodness.org/css/styles.css'; //css item to display
+$cssItem = 'http://usergoodness.com/css/styles.css'; //css item to display
 
 ?>
 
@@ -8,6 +8,19 @@ $cssItem = 'http://usergoodness.org/css/styles.css'; //css item to display
 <head>
  <title>Including css</title>
   <link rel="stylesheet" href="<?php echo ("$cssItem"); ?>" type="text/css">
+
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+    }
+    a {
+      cursor: pointer;
+      color: #049634;
+    }
+    .error {
+      color: red;
+    }
+  </style>
 </head>
 <body>
 
@@ -52,21 +65,21 @@ if(isset($_POST['email'])) {
     $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/';
  
   if(!preg_match($email_exp,$email_from)) {
-    $error_message .= 'The Email Address you entered does not appear to be valid.<br />';
+    $error_message .= 'The Email Address you entered does not appear to be valid.<br /><br />';
   }
  
     $string_exp = "/^[A-Za-z .'-]+$/";
  
   if(!preg_match($string_exp,$first_name)) {
-    $error_message .= 'The First Name you entered does not appear to be valid.<br />';
+    $error_message .= 'The First Name you entered does not appear to be valid.<br /><br />';
   }
  
   if(!preg_match($string_exp,$last_name)) {
-    $error_message .= 'The Last Name you entered does not appear to be valid.<br />';
+    $error_message .= 'The Last Name you entered does not appear to be valid.<br /><br />';
   }
  
   if(strlen($comments) < 2) {
-    $error_message .= 'The Comments you entered do not appear to be valid.<br />';
+    $error_message .= 'The Comments you entered do not appear to be valid.<br /><br />';
   }
  
   if(strlen($error_message) > 0) {
@@ -98,7 +111,7 @@ $headers = 'From: '.$email_from."\r\n".
  
 <!-- include your own success html here -->
  
-<p>Thank you for contacting us. We will be in touch with you very soon. <a href="iframe.html">Send Another?</a></p>
+<p style="font-family: 'Roboto', sans-serif; line-height: 150%;">Thank you for contacting us. We will be in touch with you very soon. <a style="color:#049634;" href="iframe.html">Send Another?</a></p>
  
  </body>
 </html>

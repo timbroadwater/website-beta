@@ -27,7 +27,7 @@
 						<ul class="svc-ul">
 							<li class="svclist audit">
 								<div class="img-wrap">
-									<img alt="bullet point" src="../img/service-01.svg">
+									<img alt="Audits" src="../img/service-01.svg">
 								</div>
 								<div class="text-wrap">
 									<h3>Audits</h3>
@@ -36,7 +36,7 @@
 							</li>
 							<li class="svclist customer">
 								<div class="img-wrap">
-									<img alt="bullet point" src="../img/service-04.svg">
+									<img alt="Customer Research" src="../img/service-04.svg">
 								</div>
 								<div class="text-wrap">
 									<h3>Customer Research</h3>
@@ -45,7 +45,7 @@
 							</li>
 							<li class="svclist quant">
 								<div class="img-wrap">
-									<img alt="bullet point" src="../img/service-05.svg">
+									<img alt="Quantitative Research" src="../img/service-05.svg">
 								</div>
 								<div class="text-wrap">
 									<h3>Quantitative Research</h3>
@@ -54,7 +54,7 @@
 							</li>
 							<li class="svclist uidesign">
 								<div class="img-wrap">
-									<img alt="bullet point" src="../img/service-06.svg">
+									<img alt="User Interface Design" src="../img/service-06.svg">
 								</div>
 								<div class="text-wrap">
 									<h3>User Interface Design</h3>

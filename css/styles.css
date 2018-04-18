@@ -125,21 +125,23 @@ header img {
   cursor: pointer;
   display: inline-block;
   float: right;
-  padding: 28px 20px;
+  padding: 5px 10px;
   position: relative;
   user-select: none;
-  margin-top: 0; }
+  margin: 10px;
+  border: 1px solid #faa918; }
   @media (min-width: 768px) {
     .header .menu-icon {
-      margin-top: 15px; } }
+      margin-top: 25px; } }
 
 .header .menu-icon .navicon {
   background: #333;
-  display: block;
+  display: inline-block;
   height: 2px;
   position: relative;
   transition: background .2s ease-out;
-  width: 18px; }
+  width: 18px;
+  bottom: 5px; }
 
 .header .menu li:nth-child(1) {
   margin-top: 0; }
@@ -707,7 +709,8 @@ h2 > i, h3 > i {
   font-weight: bold;
   background: #5ac1a0;
   color: white;
-  border-radius: 5px; }
+  border-radius: 5px;
+  cursor: pointer; }
 #iframeform a {
   color: #5ac1a0; }
 
