@@ -29,7 +29,7 @@ $cssItem = 'http://usergoodness.com/css/styles.css'; //css item to display
 if(isset($_POST['email'])) {
  
     // EDIT THE 2 LINES BELOW AS REQUIRED
-    $email_to = "info@usergoodness.com";
+    $email_to = "usergoodness@gmail.com";
     $email_subject = "Contact | UserGoodness Website";
  
     function died($error) {
