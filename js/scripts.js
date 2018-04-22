@@ -3,7 +3,7 @@ $(document).ready(function(){
     var myQuotes = new Array(); 
 
 	myQuotes[0] = "\"Everyone wants to innovate... no one wants to change.\" –Mike Monteiro"; 
-	myQuotes[1] = "\"Good user experience design is something that too few companied do.\" –Laua Klein"; 
+	myQuotes[1] = "\"Good user experience design is something that too few companies do.\" –Laua Klein"; 
 	myQuotes[2] = "\"When you're focusing on just the conversion rates... that's when problems occur.\" –Harry Brignull"; 
 	myQuotes[3] = "\"Pay attention to what users do, not what they say... users do not know what they want.\" –Jakob Nielsen"; 
 	myQuotes[4] = "\"It is a capital mistake to theorize before one has data.\" –Sherlock Holmes"; 
