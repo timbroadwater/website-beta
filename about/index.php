@@ -50,6 +50,15 @@
 				</div>
 				<div class="bio-container">
 					<div class="bio-container-left">
+						<img src="../img/danielledemme.jpg" alt="Danielle Demme" class="bio-container-image"/>
+						<h3>Danielle Demme</h3>
+					</div>
+					<div class="bio-container-right">
+						<p>Danielle, currently living in Austin, Texas  brings over 2 years of UI/UX experience from eCommerce, healthcare and enterprise software. Other skills include over 6 years of traditional graphic and visual design. She is passionate about solving complex problems with human centered design and believes in meaningful solutions that create an impact. You can find Danielle on two wheels in the city, on a long run, or traveling the world every chance she gets. Engaging with others and traveling provides her with powerful insights and more importantly, unlocks empathy for the people who could be touched by the designs she creates.</p>
+					</div>
+				</div>				
+				<div class="bio-container">
+					<div class="bio-container-left">
 						<img src="../img/denisehardman.jpg" alt="Denise Hardman" class="bio-container-image"/>
 						<h3>Denise Hardman</h3>
 					</div>
