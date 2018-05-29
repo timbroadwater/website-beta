@@ -72,7 +72,7 @@
 						<h3>Zack Pontious</h3>
 					</div>
 					<div class="bio-container-right">
-						<p>A native of Northern Pennsylvania, Zack has over 4 years of experience in UX spanning across eCommerce, industrial, finance. His UX background is complimented by his 13 years of experience in fine art and design. As a UX Designer, Zack focuses on user interface design, strategy as it applies to UX research methods. Some of Zack’s other skills include being a serial entrepreneur, idea making, art making, intermediate guitar skills, and beard growth.</p>
+						<p>Zack grew up in Northwestern, Pennsylvania. Zack has over 4 years of experience in UX spanning across eCommerce, and finance and 13 years of experience in fine art and design. Art was always a passion for him which he studied in undergrad and graduate school. He traveled all over the United States in his 1999 Toyota Camry and lived in Salt Lake City and New Orleans along the way. He always considered Western Pennsylvania home and now resides in beautiful Pittsburgh. UX allows Zack to bring many of his passions and skill sets together. He likes to focus design, creative problem solving, and strategic thinking.</p>
 					</div>
 				</div>
 				<div class="bio-container">
