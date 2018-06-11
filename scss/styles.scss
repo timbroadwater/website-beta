@@ -131,7 +131,7 @@ h2 > i, h3 > i  {
 	text-align: center;
 }
 
-#nonprofits, #contact, #mission {
+#nonprofits, #contact, #mission, #casestudy {
 	p {
 		color: $darkgrey;
 	}
@@ -150,6 +150,35 @@ h2 > i, h3 > i  {
 	}
 	h3 {
 		color: $darkgrey;
+	}
+	.twenties {
+		width: 100%;
+		float: left;
+		display: block;
+		margin-right: 0;
+		@include mq(tablet){
+			width: 27%;
+			margin-right: 3%;
+		}
+		img {
+			width: 100%;
+			height: auto;
+			border: none;
+			max-width: 250px;
+		}
+	}
+	.eightes {
+		width: 100%;
+		float: left;
+		display: block;
+		@include mq(tablet){
+			width: 70%;
+		}
+		p {
+			@include mq(tablet){
+		    	-webkit-margin-before: 0;
+		    }
+		}
 	}
 }
 

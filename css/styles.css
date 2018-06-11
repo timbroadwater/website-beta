@@ -305,20 +305,44 @@ h2 > i, h3 > i {
 #how {
   text-align: center; }
 
-#nonprofits p, #contact p, #mission p {
+#nonprofits p, #contact p, #mission p, #casestudy p {
   color: #302f30; }
-#nonprofits ol, #nonprofits ul, #contact ol, #contact ul, #mission ol, #mission ul {
+#nonprofits ol, #nonprofits ul, #contact ol, #contact ul, #mission ol, #mission ul, #casestudy ol, #casestudy ul {
   text-align: left;
   margin: 0 0 0 20px;
   padding: 0;
   color: #302f30; }
-  #nonprofits ol li, #nonprofits ul li, #contact ol li, #contact ul li, #mission ol li, #mission ul li {
+  #nonprofits ol li, #nonprofits ul li, #contact ol li, #contact ul li, #mission ol li, #mission ul li, #casestudy ol li, #casestudy ul li {
     margin: 0;
     padding: 0 0 10px 0; }
-#nonprofits h2, #contact h2, #mission h2 {
+#nonprofits h2, #contact h2, #mission h2, #casestudy h2 {
   color: #302f30; }
-#nonprofits h3, #contact h3, #mission h3 {
+#nonprofits h3, #contact h3, #mission h3, #casestudy h3 {
   color: #302f30; }
+#nonprofits .twenties, #contact .twenties, #mission .twenties, #casestudy .twenties {
+  width: 100%;
+  float: left;
+  display: block;
+  margin-right: 0; }
+  @media (min-width: 768px) {
+    #nonprofits .twenties, #contact .twenties, #mission .twenties, #casestudy .twenties {
+      width: 27%;
+      margin-right: 3%; } }
+  #nonprofits .twenties img, #contact .twenties img, #mission .twenties img, #casestudy .twenties img {
+    width: 100%;
+    height: auto;
+    border: none;
+    max-width: 250px; }
+#nonprofits .eightes, #contact .eightes, #mission .eightes, #casestudy .eightes {
+  width: 100%;
+  float: left;
+  display: block; }
+  @media (min-width: 768px) {
+    #nonprofits .eightes, #contact .eightes, #mission .eightes, #casestudy .eightes {
+      width: 70%; } }
+  @media (min-width: 768px) {
+    #nonprofits .eightes p, #contact .eightes p, #mission .eightes p, #casestudy .eightes p {
+      -webkit-margin-before: 0; } }
 
 #process .process-block {
   margin: 0 0 30px 0;

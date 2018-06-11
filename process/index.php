@@ -106,7 +106,19 @@
 				</div>											
 			</div>
 		</section>
-		<section id="footer" class="greybg">
+		<section id="casestudy" class="greybg">
+			<div class="section-wrapper2">
+				<h2><i class="fas fa-clipboard-list"></i> Case Studies</h2>
+				<div class="twenties">
+					<a href="../files/HopeHavenFarm.pdf"><img src="../img/hopehavenlogo.png"></a>
+				</div>
+				<div class="eightes">
+					<p><a href="http://www.hopehavenfarm.org/">Hope Haven Farm</a> is a 501(c)3 non-profit farm animal sanctuary located in the greater Pittsburgh area. Their mission is to rescue neglected pigs, goats, sheep, poultry, llamas, alpacas, and more! Their goal is to provide these animals with comfortable housing, nutritious food, and companionship, as well as the endless love and affection from their human caretakers.</p>
+					<p>UserGoodness completed a task analysis for Hope Haven Farm by evaluating the digital touchpoints that they currently manage. Results for Hope Haven Farm revealed <a href="../files/HopeHavenFarm.pdf">the following opportunities</a> that may lead to increased financial holdings and/or education and outreach.</p>
+				</div>
+			</div>
+		</section>
+		<section id="footer">
 			<?php include '../imports/footer.html';?>
 		</section>
 		<section id="quote">
