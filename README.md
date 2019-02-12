@@ -18,4 +18,6 @@ You can download whatever Vagrant Box you want, but the easiest is https://box.s
 
 * development hapens locally in public folder
 
-* If you used Scotch Box, go to http://192.168.33.10/ afer it's setup.
+* Go to http://192.168.33.10/ afer it's setup.
+
+* Terminal in public / sass --watch scss:css
