@@ -8,7 +8,7 @@ The [UserGoodness website](http://www.usergoodness.com) is a responsive website 
 * [SASS](http://sass-lang.com/) (Syntactically Awesome Style Sheets)
 
 To get up and running do the following:
-1. Download and install [Oracle VM VirtualBox Manager](http://www.oracle.com/technetwork/es/server-storage/virtualbox/downloads/index.html)
+1. Download and install [Oracle VM VirtualBox Manager](https://www.virtualbox.org/wiki/Downloads)
 2. Download updated version of [Vagrant](https://www.vagrantup.com/downloads.html)
 
 You can download whatever Vagrant Box you want, but the easiest is https://box.scotch.io/ in my opinion. 
