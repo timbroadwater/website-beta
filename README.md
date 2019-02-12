@@ -13,6 +13,10 @@ To get up and running do the following:
 
 You can download whatever Vagrant Box you want, but the easiest is https://box.scotch.io/ in my opinion. 
 
-* If you used Scotch Box, go to http://192.168.33.10/ afer it's setup.
+* Install VirtualBox
 
-* To view a bunch from Vagrant, create an account at https://www.vagrantup.com. A good one may be the [Trusty64 Vagrant Box](https://app.vagrantup.com/ubuntu/boxes/trusty64), and follow the command line instructions.
+* Terminal in folder / vagrant up 
+
+* development hapens locally in public folder
+
+* If you used Scotch Box, go to http://192.168.33.10/ afer it's setup.
