@@ -14,7 +14,7 @@ To get up and running do the following:
 You can download whatever Vagrant Box you want, but the easiest is https://box.scotch.io/ in my opinion. 
 
 * Terminal in folder / vagrant up
-** Password: vagrant / Username: vagrant
+* * Password: vagrant / Username: vagrant
 
 * development hapens locally in public folder
 
